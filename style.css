@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "dancescript";
+  src: url("./fonts/DancingScript-VariableFont_wght.ttf");
+}
+
+.intro {
+  height: 100vh;
+}
+
+.intro video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.overlay-texts {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.overlay-texts h1 {
+  font-family: "dancescript";
+  font-size: 80px;
+}
+
+.overlay-texts h4 {
+  font-family: "dancescript";
+  padding-left: 20px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.look-up {
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background: #111111ee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.git-hub {
+  height: 90px;
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.git-hub svg {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.git-hub p {
+  font-family: sans-serif;
+  color: #ffffff;
+  font-size: 10px;
+}
+
+path {
+  fill: #ffffff;
+}
+
+section {
+  height: 0vh;
+  color: black;
+}
+
+section h1 {
+  padding-top: 300px;
+  text-align: center;
+  font-size: 80px;
+}
