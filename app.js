@@ -6,10 +6,6 @@ const loading = document.querySelector(".load-screen");
 const body = document.querySelector("body");
 
 // Event Listners
-if (video.load) {
-  console.log("loaded");
-}
-
 window.addEventListener("load", () => {
   loading.style.display = "none";
   body.style.overflowY = "scroll";
