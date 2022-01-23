@@ -6,7 +6,18 @@ const loading = document.querySelector(".load-screen");
 const body = document.querySelector("body");
 
 // Event Listners
+window.addEventListener("loadstart", () => {
+  window.scroll({
+    top: 3300,
+    behavior: "smooth",
+  });
+});
+
 window.addEventListener("load", () => {
+  window.scroll({
+    top: 0,
+    behavior: "smooth",
+  });
   loading.style.display = "none";
   body.style.overflowY = "scroll";
 });
