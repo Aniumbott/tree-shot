@@ -2,6 +2,14 @@ const intro = document.querySelector(".intro");
 const video = intro.querySelector("video");
 const text = intro.querySelector(".overlay-texts");
 const links = intro.querySelector(".look-up");
+const loading = document.querySelector(".load-screen");
+const body = document.querySelector("body");
+
+// Event Listners
+window.addEventListener("load", () => {
+  loading.style.display = "none";
+  body.style.overflowY = "scroll";
+});
 
 //SCROLLMAGIC
 const controller = new ScrollMagic.Controller();

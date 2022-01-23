@@ -9,6 +9,21 @@
   src: url("./fonts/DancingScript-VariableFont_wght.ttf");
 }
 
+body {
+  overflow-y: hidden;
+}
+
+.load-screen {
+  position: sticky;
+  height: 100vh;
+  width: 100%;
+  z-index: 10;
+  background: #282424;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .intro {
   height: 100vh;
 }
